@@ -9,6 +9,12 @@ main {
   background-color: aliceblue;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+      width: 80%;
+    }
+  }
+
 img {
   width: 8rem;
 }
